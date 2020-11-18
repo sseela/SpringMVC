@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-    /**
+    /** 
      * Default constructor. 
      */
     public LoginServlet() {
@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		System.out.println("doGet------------------------------------------------------------------");
 	}
-
+ 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
